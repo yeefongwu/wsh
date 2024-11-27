@@ -1,8 +1,3 @@
-name: Yeefong Wu
-cs login: yeefong
-wisc ID: 9082270936
-email: wu564@wisc.edu
-status: complete and pass the test
 
 LLM dialoge:
 
