@@ -1,0 +1,90 @@
+Script started on 2023-10-03 23:16:50-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="76" LINES="73"]
+[?2004h[yeefong@royal-08] (1)$ [7m~cs537-1/tests/P3/test-cd.csh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~cs537-1/tests/P3/test-cd.csh
+[A
+[?2004lWSH...
+TEST 0 - clean build (program should compile without errors or warnings)
+RESULT passed
+
+TEST 1 - Basic cd usage: absolute path. Score: 2
+RESULT passed
+
+TEST 2 - Basic cd usage: relative path.  Score: 2
+RESULT passed
+
+TEST 3 - Special directory entries ".", "..".  Score: 2
+RESULT passed
+
+TEST SCORE: 6 / 6
+
+
+[?2004h[yeefong@royal-08] (2)$ [7m~cs537-1/tests/P3/test-exec.csh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~cs537-1/tests/P3/test-exec.csh
+[A
+[?2004lWSH...
+TEST 0 - clean build (program should compile without errors or warnings)
+RESULT passed
+
+TEST 1 - Basic exec.  Score: 6
+RESULT passed
+
+TEST 2 - Background jobs.  Score: 6
+RESULT passed
+
+TEST SCORE: 12 / 12
+
+
+[?2004h[yeefong@royal-08] (3)$ [7m~cs537-1/tests/P3/test-job-control.csh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~cs537-1/tests/P3/test-job-control.csh
+[A
+[?2004lWSH...
+TEST 0 - clean build (program should compile without errors or warnings)
+RESULT passed
+
+TEST 1 - Basic Ctrl+C.  Score: 4
+RESULT passed
+
+TEST 2 - Basic Ctrl+Z, Ctrl+C.  Score: 4
+RESULT passed
+
+TEST 3 - Basic fg.  Score: 4
+RESULT passed
+
+TEST 4 - Basic bg.  Score: 4
+RESULT passed
+
+TEST 5 - After fg, foreground processes receive signals.  Score: 2
+RESULT passed
+
+TEST 6 - After bg, background processes don't receive Ctrl+C/Z.  Score: 2
+RESULT passed
+
+TEST 7 - Multiple bg, fg.  Score: 1
+RESULT passed
+
+TEST SCORE: 21 / 21
+
+
+[?2004h[yeefong@royal-08] (4)$ [7m~cs537-1/tests/P3/test-pipe.csh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~cs537-1/tests/P3/test-pipe.csh
+[A
+[?2004lWSH...
+TEST 0 - clean build (program should compile without errors or warnings)
+RESULT passed
+
+TEST 1 - Basic pipe.  Score: 5
+RESULT passed
+
+TEST 2 - Basic pipe (2).  Score: 5
+RESULT passed
+
+TEST 3 - Chained pipe.  Score: 2
+RESULT passed
+
+TEST SCORE: 12 / 12
+
+
+[?2004h[yeefong@royal-08] (5)$ exit
+[?2004lexit
+
+Script done on 2023-10-03 23:17:23-05:00 [COMMAND_EXIT_CODE="0"]
